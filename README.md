@@ -2,11 +2,11 @@
 
 This repository sets up a vcpkg overlay for testing or creating new vcpkg ports. 
 
-This allows to test your package before submission to the [evs vcpkg registry](https://bitbucket.evs.tv/projects/VCPKG/repos/evs-vcpkg-registry/browse).
+This allows to test your package before submission to the [onbings vcpkg registry](https://...).
 
 # Build options
 
-- ``VCPKG_INSTALL_DIR`` - Specify vcpkg's installation directory. Default is **/opt/evs/vcpkg**.
+- ``VCPKG_INSTALL_DIR`` - Specify vcpkg's installation directory. Default is **/opt/onbings/vcpkg**.
 
 # Adding a new port
 
@@ -17,4 +17,4 @@ This allows to test your package before submission to the [evs vcpkg registry](h
 3. Add the package to [vcpkg.json](vcpkg.json)
 4. Add a find_package in [CMakeLists.txt](CMakeLists.txt)
 5. Link the main target with the package you want to test
-6. When the package is ready, submit it to the [evs-vcpkg-registry](https://bitbucket.evs.tv/projects/VCPKG/repos/evs-vcpkg-registry/browse)
+6. When the package is ready, submit it to the [onbings-vcpkg-registry](https://...)
