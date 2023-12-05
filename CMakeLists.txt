@@ -17,14 +17,15 @@ cmake_minimum_required(VERSION 3.15)
 # == Project Definition    ==
 # ===========================
 project(vcpkg-packaging-env VERSION 0.0.0 LANGUAGES CXX)
-set(CMAKE_FIND_DEBUG_MODE false)
+
 # ===========================
 # == EXTERNAL DEPENDENCIES ==
 # ===========================
 # Find dependencies here, using find_package
-find_package(bofstd REQUIRED NO_MODULE)
-find_package(bof2d REQUIRED NO_MODULE)
-
+#set(CMAKE_FIND_DEBUG_MODE TRUE)
+find_package(bofstd CONFIG REQUIRED)
+find_package(bof2d CONFIG REQUIRED)
+#set(CMAKE_FIND_DEBUG_MODE FALSE)
 # ===========
 # == BUILD ==
 # ===========
