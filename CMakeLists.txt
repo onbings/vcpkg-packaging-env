@@ -35,6 +35,6 @@ add_executable(vcpkg-packaging-env main.cpp)
 target_link_libraries(vcpkg-packaging-env
   PRIVATE 
   ONBINGS::bofstd
-  ONBINGS::bofimgui
+  ONBINGS::bofdearimgui
   ONBINGS::bofwebrpc
 )
