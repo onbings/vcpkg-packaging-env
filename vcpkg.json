@@ -4,6 +4,7 @@
   "description": "A dev environment for creating new vcpkg ports",
   "dependencies": [
 	"bofstd",
-	"bof2d"
+	"bofdearimgui",
+	"bofwebrpc"
   ]
 }
