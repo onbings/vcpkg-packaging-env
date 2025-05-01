@@ -3,7 +3,14 @@
   "version-string": "1.0.0.0",
   "description": "A dev environment for creating new vcpkg ports",
   "dependencies": [
-	"bofstd",
-	"bof2d"
+    {
+      "name": "bofstd"
+    },
+    {
+      "name": "bofwebrpc"
+    },
+	{
+      "name": "bofdearimgui"
+    }
   ]
 }

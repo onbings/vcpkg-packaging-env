@@ -1,17 +1,19 @@
 {
   "default-registry": {
     "kind": "git",
-    "repository": "https://github.com/microsoft/vcpkg.git",
-	"baseline": "3715d743ac08146d9b7714085c1babdba9f262d5"
+    "baseline": "5a874b05fb981e2643fd0c1c9ad63e19dfe76b27",
+    "repository": "https://github.com/microsoft/vcpkg.git"
   },
   "registries": [
     {
       "kind": "git",
+      "baseline": "c526ee5d5e29fa64f0983818d328677ea5e4bada",
       "repository": "https://github.com/onbings/onbings-vcpkg-registry",
-      "baseline": "62b6c7f4b652e7113cf9a57340c32e3d6c7f455a",
       "packages": [
-	     "bofstd",
-		 "bof2d"
+		"bofstd",
+		"bof2d",
+		"bofwebrpc",
+		"bofdearimgui"
       ]
     }
   ]
