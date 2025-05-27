@@ -34,13 +34,15 @@ find_package(bofstd CONFIG REQUIRED)
 #find_package(bof2d CONFIG REQUIRED)
 find_package(bofwebrpc CONFIG REQUIRED)
 find_package(bofdearimgui CONFIG REQUIRED)
-find_package(imgui CONFIG REQUIRED)
+#find_package(imgui CONFIG REQUIRED)
 #set(CMAKE_FIND_DEBUG_MODE FALSE)
 # ===========
 # == BUILD ==
 # ===========
 add_executable(vcpkg-packaging-env main.cpp)
 set_property(TARGET vcpkg-packaging-env PROPERTY CXX_STANDARD 17)
+get_target_property(deps ONBINGS::bofdearimgui INTERFACE_LINK_LIBRARIES)
+message("====================>Dependencies: ${deps}")
 
 target_link_libraries(vcpkg-packaging-env
   PRIVATE 
@@ -48,5 +50,5 @@ target_link_libraries(vcpkg-packaging-env
   #ONBINGS::bof2d
   ONBINGS::bofwebrpc
   ONBINGS::bofdearimgui
-  hello-imgui::hello_imgui
+#  hello-imgui::hello_imgui
 )
