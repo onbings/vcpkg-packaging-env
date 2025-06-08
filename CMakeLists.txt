@@ -40,7 +40,7 @@ find_package(bofdearimgui CONFIG REQUIRED)
 # == BUILD ==
 # ===========
 add_executable(vcpkg-packaging-env main.cpp)
-set_property(TARGET vcpkg-packaging-env PROPERTY CXX_STANDARD 17)
+set_property(TARGET vcpkg-packaging-env PROPERTY CXX_STANDARD 20)
 get_target_property(deps ONBINGS::bofdearimgui INTERFACE_LINK_LIBRARIES)
 message("====================>Dependencies: ${deps}")
 
