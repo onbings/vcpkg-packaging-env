@@ -11,6 +11,16 @@
     },
     {
       "name": "bofdearimgui"
+    },
+    {
+      "name": "evs-hwfw-dis",
+      "features": [
+        "mdns",
+        "prometheus",
+        "consul",
+        "client",
+        "service"
+      ]
     }
   ]
 }

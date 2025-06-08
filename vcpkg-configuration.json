@@ -1,20 +1,21 @@
 {
   "default-registry": {
     "kind": "git",
-    "baseline": "2ec65725864eb30841b0b58573f8324a5d545a86",
+    "baseline": "984f9232b2fe0eb94f5e9f161d6c632c581fff0c",
     "repository": "https://github.com/microsoft/vcpkg.git"
   },
   "registries": [
     {
       "kind": "git",
-      "baseline": "6c39c2648f92592863a8326d114bd7372e8242e9",
+      "baseline": "004efdf8024d44fcbfd26f524146745210962501",
+      "repository": "ssh://git@bitbucket.evs.tv:7999/evs-hwfw-cmake-vcpkg/evs-hwfw-vcpkg-registry.git",
+      "packages": []
+    },
+    {
+      "kind": "git",
+      "baseline": "b1f4e61183f0e7ec67cb627ab4f2318c0ec40315",
       "repository": "https://github.com/onbings/onbings-vcpkg-registry",
-      "packages": [
-        "bofstd",
-        "bof2d",
-        "bofwebrpc",
-        "bofdearimgui"
-      ]
+      "packages": []
     }
   ]
 }
